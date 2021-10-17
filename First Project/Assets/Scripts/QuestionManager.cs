@@ -12,6 +12,7 @@ public class QuestionManager : MonoBehaviour
     QuestionData mCurrentQuestion;
 
     public QuestionData MCurrentQuestion { get => mCurrentQuestion; set => mCurrentQuestion = value; }
+    public List<QuestionData> MQuestion { get => mQuestion; set => mQuestion = value; }
 
     private void Awake()
     {
